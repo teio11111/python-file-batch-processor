@@ -10,10 +10,10 @@
 - 异常处理：防止文件被占用/权限不足导致脚本崩溃
 - 统计处理成功/失败数量，方便核对结果
 
-## 运行方式
+## 运行方式（Linux 环境）
 ```bash
-# 1. 进入项目目录
-cd /opt/python-file-batch-processor
+# 方式1：一键启动脚本（推荐）
+./run.sh
 
-# 2. 运行脚本
+# 方式2：直接运行 Python 脚本
 python3 batch_processor.py
